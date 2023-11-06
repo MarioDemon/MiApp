@@ -16,12 +16,7 @@
         android:orientation="vertical"
         android:padding="8dp">
 
-    <TextView
-        android:id="@+id/Numerido"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/robotocondensedbold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
 
     <TextView
         android:id="@+id/nameTextView"
