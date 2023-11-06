@@ -5,7 +5,12 @@
     android:orientation="vertical"
     android:background="@drawable/_20200_video_game_genshin_impact_phone_wallpaper">
 
-
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_marginLeft="40px"/>
 
     <EditText
         android:id="@+id/edadEditText"
