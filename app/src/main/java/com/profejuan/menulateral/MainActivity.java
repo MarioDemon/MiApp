@@ -45,26 +45,7 @@ public class MainActivity extends AppCompatActivity {
         cambiarPantalla(0);
     }
 
-    void cambiarPantalla(int quePantalla) {
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-        Fragment fragment;
 
-        switch (quePantalla) {//Distintas pantallas disponibles para la navegación
-            case 0:
-            default:
-                fragment = new InicioFragment();
-                setTitle("Inicio");//Pantalla Inicial de la aplicación
-                break;
-            case 1:
-                fragment = new PrincipalFragment();
-                setTitle("Energia por distrito");//Pantalla de base de datos
-                break;
-            case 2:
-                fragment = new PerfilFragment();
-                setTitle("Perfil");//Pantalla de perfil
-                break;
-        }
 
         transaction.replace(R.id.contenedorPantalla, fragment, "tag");
         transaction.commit();
