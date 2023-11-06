@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/_20200_video_game_genshin_impact_phone_wallpaper">
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_marginLeft="40px"/>
+
+    <EditText
+        android:id="@+id/edadEditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:layout_marginLeft="40px"/>
+
+    <EditText
+        android:id="@+id/correoEditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:layout_marginLeft="40px"/>
+
+    <Button
+        android:id="@+id/tomarFotoButton"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="40px"
+
+        android:background="@color/tur"
+        android:fontFamily="@font/robotocondensedbold"
+        android:text="Tomar Foto de perfil" />
+
+    <TextView
+        android:id="@+id/editarFotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vuelva a pulsar para editar foto"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="100px"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MenuLateral</string>
+    <string name="abrir_menu">Abrir menú de opciones</string>
+    <string name="cerrar_menu">Cerrar menú de opciones</string>
+    <string-array name="pantallas">
+        <item>Inicio</item>
+        <item>Energia por Distrito</item>
+        <item>Perfil de Usuario</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
